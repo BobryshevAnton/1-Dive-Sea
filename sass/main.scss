@@ -1,0 +1,30 @@
+/* colors site */
+
+@import 'utils/variables';
+
+/* base and reset */
+
+@import 'base/base';
+@import 'base/reset';
+
+/* header and footer */
+
+@import 'layout/header';
+@import 'layout/footer';
+
+/* component first page */
+
+@import './component/discover';
+@import './component/weekly';
+@import './component/collection';
+@import './component/marketplace';
+
+@import './component/join';
+@import './component/frequently';
+@import './component/create';
+
+
+
+/* component second page */
+@import './component/creator';
+@import './component/stats';

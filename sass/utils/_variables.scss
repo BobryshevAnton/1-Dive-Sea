@@ -1,0 +1,131 @@
+:root {
+
+/* color backdrop */
+--main-colorBack: #F9F9F9;
+--main-colorWeekly:#F1F1F1;
+--main-colorFont:#141416;
+ 
+/* color`s Header */ 
+--color-title:#606060;
+--color-logoHeader:#000000;
+--color-BgColor:#141416;
+--color-logo:#141416;
+--color-input:#EDEDED;
+--color-inputFont:#C2C3CB;
+--color-fontBtn:#FFFFFF;
+--color-decoHead:#CBCBCB;
+
+
+/* color`s Discover */
+--color-deco:#201F1F;
+--color-title-first:#141416; 
+--color-titleDisc:#676767;
+--color-subCount:#848586;
+--color-btnDisc:#000000;/*border, font, bground*/
+--color-fontBtnDisc:#FFFFFF; 
+
+/* color`s Weekly */
+--color-title:#C5C5C5;
+--color-subTitleWeek:#94A3B8;
+--color-decoCard1:rgba(28, 29, 32, 0.35);
+--color-decoCard2:rgba(28, 29, 32, 0.08);
+--color-btnWeek:#141416;
+--color-fontBtnWeek:#FFFFFF;
+
+--color-cardBgWeek:rgba(255, 255, 255, 1);
+
+
+/* color`s Recent Collection */
+--color-titleRecent:#1A202C;
+--color-point:#CBD5E0;
+--color-nicN:#64748B;
+--color-percentGr:#10C352;/*unleash*/
+--color-percentR:#E23333;/*unleash*/
+
+--color-td:#93989A;
+--color-decoColl:#EBE9E9;
+--color-fontExplore:#ACADB9;/*Marketplace*/
+
+--color-cardBgColl:#EDF2F7;/* weekly card, collection card*/
+
+ 
+/* color`s Marketplace */
+--color-fontNav:#1A202C;
+--color-borderColor:#141416;
+--color-iconNav:#000000;
+--color-subTitleMarket:#94A3B8;
+--color-fontBtnMarket:#FFFFFF;
+--color-cardBgMarket:#FFFFFF;
+--color-explore:#ACADB9;
+
+/* color`s Unleash */
+--color-title:#C5C5C5;
+--color-titleSpan:#18181B;
+--color-list-svg:#12141D;
+--color--BgUnl:#000000;
+--color-fontBtnUnl:#FFFFFF;
+
+--color-cardBgUnl:#EDF2F7;/* weekly card, collection card*/
+
+--color-titleBidSpan:#949494;
+--color-nicBid:#23262F;
+--color-name-follow:#23262F;
+--color-BcSeller:#E6E8EC;/*bacground Btn*/
+
+--color-titleSellerRecent:#1A202C;
+
+/* color`s Join */
+--color-galaxy:#D2D2D2;
+--color-planet:#FFFFFF;
+--color-titleJoin:#18181B;
+--color-titleJoinSpan:#C5C5C5;
+--color-subTitleJoin:#12141D;
+--color--BgJoin:#000000;
+--color-fontBtnJoin:#FFFFFF;
+
+/* color`s Frequently */
+--color-titleFreq:#18181B;
+--color-titleFreqSpan:#C5C5C5;
+--color-listFreq:#323142;
+--color-decoFreq:#ADADAD;
+--color-iconFreq:#141416;
+
+/* color`s Create */
+--color-titleCr:#FFFFFF;
+--color-subCr:#D4D4D4;
+--color-btnCr:#FFFFFF;/* border bcolor font*/
+--color-fontBtnCr:#141416;/*focus hover*/
+
+/* color`s Creator */
+--color-subText:#828282;
+--color-bgrCart:#F2F2F2;
+--color-imgBord:#FFFFFF; 
+
+/* color`s Footer */
+--color-logo-font:#FFFFFF;
+--color-subTitle:#D4D4D4;
+--color-nav:#B9B9B9;
+--color-subNav:#999999;
+--color-social:#535353;
+--color-socHover:#FFFFFF;
+--color-deco:#818181;
+
+ 
+/* color arrow */
+--color-arrow:#929292;
+--color-slash:#E6E8EC;
+--color-arrowHover:#23262F;
+  
+/* font - Header, Discover, Footer */
+--font-Inter:  'Inter', sans-serif; 
+/* font - Marketplace */
+--font-Manrope: 'Manrope', sans-serif; 
+/* font - Create */
+--font-Outfit: 'Outfit', sans-serif; 
+/* font - Header, Discover, Weekly, Collection, Marketplace, Unleash, Join, Frequently, Create, Footer */
+--font-Poppins: 'Poppins', sans-serif;
+/* font - Discover */
+--font-PublicSans: 'Public Sans', sans-serif;
+/* font - Unleash*/
+--font-DmSans: 'Dm Sans', sans-serif; 
+}

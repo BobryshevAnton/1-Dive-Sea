@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600&family=Outfit:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./sass/main.css">
+
+</head>
+<body class="page">
+     
+    <header  class="header">
+        <div class="navigate section"> 
+              <nav class="header__nav"> 
+                    <a class="header__logoSvg" href="index.html">
+                        <svg class="header__icon" >
+                        <use href="./image/symbol.svg#icon-waveLogo"></use>
+                    </svg> 
+                    <p class="header__logo-name">DiveSea</p></a>
+                    <ul class="header__menu">
+                        <li class="header__list">
+                            <a class="header__link" href="index.html" >Discover</a>
+                        </li>
+                        <li class="header__list">
+                            <a  class="header__link" href="creators.html">Creators</a>
+                        </li>
+                        <li class="header__list">
+                            <a  class="header__link" href="sell.html">Sell</a>
+                        </li>
+                        <li class="header__list">
+                            <a  class="header__link  current" href="stats.html">Stats</a>
+                        </li>
+                    </ul> 
+                </nav> 
+            <div class="header__input">
+                <form class="header__search"> 
+                    <label class="header__input-box">
+                    <input class="header__input-text" type="text" placeholder="Search Art Work / Creator"/>
+                      <svg class="header__icon-search" >
+                     <use href="./image/symbol.svg#icon-search"></use>
+                  </svg>
+                    
+                    <button class="header__button" type="button">Connect Wallet</button>
+                </label>
+                </form> 
+            </div> 
+            <nav class="header__bar">
+                <div class="bar">
+                    <p class="barA"></p>
+                    <p class="barB"></p>
+                    <p class="barC"></p>
+                </div> 
+            </nav>  
+        </div> 
+    </header> 
+     <main>
+         <section class="stats">
+            <div class="statss section">
+                <h2 class="stats__title">Leaderboard NFTs</h2> 
+
+                <div class="stats__category">
+                            <ul class="stats__category-menu">
+                                 
+                                <li class="stats__category-list"> 
+                                    <svg class="stats__icon" >
+                                    <use href="./image/symbol.svg#icon-data"></use>
+                                    </svg>
+                                    <p class="stats__category-nameSecond"> Category</p>
+                                </li>
+                                <li class="stats__category-list">
+                                    <svg class="stats__icon" >
+                                    <use href="./image/symbol.svg#icon-vois"></use>
+                                    </svg>
+                                    <p class="stats__category-nameSecond">Collection</p>
+                                    
+                                </li>
+                                <li class="stats__category-list">
+                                    <svg class="stats__icon" >
+                                    <use href="./image/symbol.svg#icon-dollar"></use>
+                                    </svg>
+                                    <p class="stats__category-nameSecond">Price</p> 
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="stats__category">
+                        <table class="stats__table"> 
+                            <thead class="stats__head">
+                                <tr class="stats__tr">
+                                <th class="stats__th "><p class="collection__th coll">Collection</p></th>
+                                <th class="stats__th">Volume</th>
+                                <th class="stats__th mobileUnVisible">24h %</th>
+                                <th class="stats__th mobileUnVisible">Floor Price</th>
+                                <th class="stats__th mobileUnVisible">Owners</th>
+                                <th class="stats__th mobileUnVisible">Items</th> 
+                                </tr>
+                            </thead>
+
+                            <tbody class="stats__tbody">
+                              
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user">
+                                        <img class="statsbox__img" src="./image/image1.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Alex Ca.</p>
+                                            <p class="statsuser__subName">By Alex</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>8.456</p>
+                                    <p class="statsvolume__percent green bold">+27.78%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+27.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>3.5</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">500</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user second__elem">
+                                        <img class="statsbox__img" src="./image/image2.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Dura Gx.</p>
+                                            <p class="statsuser__subName">By Dura</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>4.486</p>
+                                        <p class="statsvolume__percent red bold">-15.75%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+09.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>2.4</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">900</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image3.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Michal Yu.</p>
+                                            <p class="statsuser__subName">By Michal</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>9.124</p>
+                                       <p class="statsvolume__percent green bold">+11.78%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+11.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>3.5</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">920</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image4.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Differy Da.</p>
+                                            <p class="statsuser__subName">By Tom</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>3.657</p>
+                                       <p class="statsvolume__percent red bold">-20.52%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+22.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>2.4</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">300</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image5.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Union Ca.</p>
+                                            <p class="statsuser__subName">By Jerry</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>4.486</p>
+                                       <p class="statsvolume__percent red bold">+22.78%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+22.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>2.4</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">800</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image6.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Duckly Dk.</p>
+                                            <p class="statsuser__subName">By Duck</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>8.456</p>
+                                       <p class="statsvolume__percent red bold">-21.52%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+15.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>3.5</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">500</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image1.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Union Ca.</p>
+                                            <p class="statsuser__subName">By Jerry</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>4.486</p>
+                                       <p class="statsvolume__percent red bold">+27.78%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+27.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>2.4</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">800</p>
+                                </td>
+                                </tr>
+                                <tr class="stats__tr">
+                                <th class="stats__user">
+                                    <div class="statsbox__user  second__elem">
+                                        <img class="statsbox__img" src="./image/image2.jpg" alt="Sunset"/>
+                                        <div class="statsbox__name">
+                                            <p class="statsuser__name">Duckly Dk.</p>
+                                            <p class="statsuser__subName">By Duck</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                 <td class="stats__volume">
+                                    <div class="statsvolume__user"> 
+                                      <p  class="statsvolume__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>8.456</p>
+                                       <p class="statsvolume__percent red bold">15.782%</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__percent green bold">+15.78%</p>
+                                </td>
+                                 <td class="stats__price">
+                                    <div class="statsbox__price"> 
+                                      <p  class="statsprice__data bold"><svg class="statsvolume__svg" width="21.24" height="21.24">
+                                                <use href="./image/symbol.svg#icon-ethereum"></use>
+                                                </svg>3.5</p>
+                                    </div>
+                                </td>
+                                <td><p class="stats__owners normal">2.2K </p>
+                                </td>
+                                 <td><p class="stats__items normal">500</p>
+                                </td>
+                                </tr>
+                            </tbody>
+                            </table>    
+                    </div>
+                    <p class="stats__all">Explore All
+                    <svg class="stats__allSvg"  
+                    style="display: block; transform: scale(-1,1)">
+                    <use href="./image/symbol.svg#icon-arrowLeft"></use>
+                    </svg> </p>
+            </div>
+           </section>
+          
+    </main>  
+    <footer class="footer">
+    <div class="footers section">
+        <div class="footer__nav">
+            <div class="footer__logo-conteiner">
+                <a class="footer__logo" href="index.html">
+                <svg class="footer__logo-svg" width="65" height="65">
+                        <use href="./image/symbol.svg#icon-waveLogo"></use>
+                    </svg>
+                <p class="footer__logo-name">DiveSea</p>
+            </a>
+            <ul class="footer__info-menu mobile"> 
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-instagram"></use>
+                  </svg>
+                </li> 
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-Path-6"></use>
+                  </svg>
+                </li>
+            </ul>
+            </div>
+            <div class="footer__menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-name">Privacy Policy</li>
+                    <li class="footer__menu-name">Term & Conditions</li>
+                    <li class="footer__menu-name">About Us</li>
+                    <li class="footer__menu-name">
+                        <a href="contact.html">Contact</a>
+                    </li>   
+                </ul>
+            </div>
+        </div>
+         <div class="footer__info">
+            <h2 class="footer__info-svg" >© 2023 EATLY All Rights Reserved.</h2>
+            <ul class="footer__info-menu tablet"> 
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-instagram"></use>
+                  </svg>
+                </li> 
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="footer__info-list">
+                    <svg class="footer__icon" width="21.34" height="21.42">
+                     <use href="./image/symbol.svg#icon-Path-6"></use>
+                  </svg>
+                </li>
+            </ul>
+        </div> 
+     </div>
+</footer>
+
+</body>
+</html>  

@@ -1,0 +1,290 @@
+ .weekly{
+    padding-top: 57px;
+    padding-bottom: 55.61px; 
+    background-color: var(--main-colorWeekly);
+@media screen and (min-width: 1024px) {
+    padding-top: 49.79px;
+    padding-bottom: 64.02px;
+} 
+@media  screen and (min-width: 1440px) {
+    padding-top: 70px;
+    padding-bottom: 90px; 
+}
+}
+.weeklys{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.weekly__title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 26.92px;
+    font-weight: 600;
+    color:var(--color-title); 
+    margin-bottom: 63px ;
+@media screen and (min-width: 1024px) {
+     font-size: 32px;
+     line-height: 19.14px;
+     margin-bottom: 70.32px;
+} 
+@media  screen and (min-width: 1440px) { 
+    font-size: 45px;
+    line-height: 26.92px;
+    margin-bottom: 100px; 
+   }
+} 
+.weekly__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 198.02px;
+    height: 284.04px;
+    background-color: var(--color-cardBgWeek);
+    border-radius: 16.61px; 
+    position: relative;
+    box-shadow: 38.98px 15px 59px #c7c7c7;
+@media  screen and (min-width: 1024px) {  
+    width: 199.93px;
+    height: 286.1px; 
+    border-radius: 16.73px;  
+   }
+@media  screen and (min-width: 1440px) {  
+    width: 282.02px;
+    height: 402.28px; 
+    border-radius: 23.53px;  
+   }
+}
+.weekly__img{
+    width: 178.56px;
+    height: 178.56px;
+    border-radius: 16.58px;
+    margin-top: 9.97px; 
+@media  screen and (min-width: 1024px) {  
+    width: 179.886px;
+    height: 179.86px;
+    border-radius: 16.7px;
+    margin-top: 10.04px; 
+   }
+@media  screen and (min-width: 1440px) {  
+    width: 252.9px;
+    height: 252.9px;
+    border-radius: 23.48px;
+    margin-top: 14.12px; 
+   }
+}
+.weekly__art{  
+    background: (rgba(28, 29, 32, 0.35) );
+    border-radius: 6.64px;
+    border: 0.83px rgba(28, 29, 32, 0.08) solid;
+    color:var(--color-fontBtnWeek); 
+    font-weight: 500;
+    font-size: 9.97px;
+    line-height: 14.95px;
+    letter-spacing: 0.08px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5.79px 9.99px;
+    position: absolute;
+    top: 19.93px;
+    right: 17.84px;
+@media  screen and (min-width: 1024px) {  
+    border-radius: 6.69px;
+    border: 0.84px rgba(28, 29, 32, 0.08) solid; 
+    font-size: 10.04px;
+    line-height: 15.06px;
+    letter-spacing: 0.08px; 
+    padding:5.88px 10.29px; 
+    top: 20.07px;
+    right: 17.97px;
+}
+@media  screen and (min-width: 1440px) {
+    border-radius: 9.41px;
+    border: 1.18px rgba(28, 29, 32, 0.08) solid; 
+    font-size: 14.12px;
+    line-height: 21.17px;
+    letter-spacing: 0.12px; 
+    padding:8.32px 14.35px; 
+    top: 28.23px;
+    right: 25.27px;
+}
+}
+.weekly__list{
+    display: flex; 
+    column-gap: 28.05px; 
+@media  screen and (min-width: 1024px) {
+    column-gap: 28.10px;  
+} 
+@media  screen and (min-width: 1440px) {
+    column-gap: 39.47px;  
+}
+}  
+.weekly__art-title{
+   font-weight: 600;
+    font-size: 14.95px;
+    line-height: 20.93px;
+    color:var(--main-colorFont);
+    margin-top: 13.29px;
+    margin-bottom: 9.97px;
+@media  screen and (min-width: 1024px) {
+    font-size: 15.06px;
+    line-height: 21.08px; 
+    margin-top: 13.38px;
+    margin-bottom: 10.04px;
+} 
+@media  screen and (min-width: 1440px) { 
+    font-size: 21.17px;
+    line-height: 29.64px; 
+    margin-top: 18.82px;
+    margin-bottom: 14.12px;
+} 
+}
+.weekly__sub-card{
+    display: flex;
+    flex-direction: column;
+}
+.weekly__bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 171.92px;
+@media  screen and (min-width: 1024px) {
+    width: 173.16px;
+} 
+@media  screen and (min-width: 1440px) {
+    width: 243.49px; 
+} 
+
+}
+.weekly__btn{
+    width: 85.96px;
+    height: 36.54px;
+    background-color: var(--color-btnWeek);
+    border-radius: 8.31px;
+    color:var(--color-fontBtnDisc);
+    border: none; 
+    font-size: 9.97px;
+    line-height: 14.95px;
+    letter-spacing: 0.08px;
+    padding-left: 17.18px;
+    padding-right: 17.18px;
+    text-transform: uppercase;
+@media  screen and (min-width: 1024px) {
+    width: 88.58px;
+    height: 36.81px;
+    border-radius: 8.37px; 
+    font-size: 10.04px;
+    line-height: 15.06px; 
+    padding-left: 17.29px;
+    padding-right: 17.29px;
+} 
+@media  screen and (min-width: 1440px) {
+    width: 121.74px;
+    height: 51.76px;
+    border-radius: 11.76px; 
+    font-size: 14.12px;
+    line-height: 21.17px; 
+    letter-spacing: 0.12px;
+    padding-left: 24.87px;
+    padding-right: 24.87px;
+} 
+&:hover,
+&:focus{ 
+    color:#878686;
+    background-color: #353535; 
+}
+}
+.weekly__sub-title{
+    font-weight: 400;
+    font-size: 9.97px;
+    line-height: 14.995px;
+    letter-spacing: 0.08px;
+    color:var(--color-subTitleWeek); 
+@media  screen and (min-width: 1024px) {
+    font-size: 10.04px;
+    line-height: 15.06px; 
+} 
+@media  screen and (min-width: 1440px) {
+    font-size: 14.12px;
+    line-height: 21.17px;
+    letter-spacing: 0.12px;
+} 
+}
+.weekly__sub-count{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 11.63px;
+    line-height: 17.44px; 
+    color:var(--color-btnWeek);
+    margin-top: 3.32px;
+@media  screen and (min-width: 1024px) {
+    font-size: 11.71px;
+    line-height: 15.57px; 
+    margin-top: 3.35px; 
+} 
+@media  screen and (min-width: 1440px) {
+    font-size: 16.47px;
+    line-height: 24.7px; 
+    margin-top: 4.71px; 
+}  
+} 
+.weekly__block{
+    padding-left: 21.56px;
+    padding-right: 21.56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 68.99px;
+    background-color: 
+rgba(252, 252, 253, 1);
+    border-radius: 17.25px;
+    box-shadow: 0px 43.11px 59px #c7c7c7;
+    margin-top: 59.96px;
+    margin-left: auto;
+    margin-right: auto;
+@media  screen and (min-width: 1024px) { 
+    width: 150px;
+    height: 50px;
+    border-radius: 12.27px;
+    padding: 15.32px 15.32px; 
+    margin-top: 81.58px;
+} 
+@media  screen and (min-width: 1440px) {
+    padding-left: 21.56px;
+    padding-right: 21.56px;
+    width: 166px;
+    height: 68.99px;
+    border-radius: 17.25px;
+    margin-top: 114.72px;
+}   
+}
+.weekly__icon{
+    fill:var(--color-arrow);   
+&:hover,
+&:focus{   
+    fill: var(--color-arrowHover); 
+} 
+} 
+.weekly__slash{
+    margin-left: 34.49px;
+    margin-right: 34.49px;
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--color-slash);
+}
+.section{
+    width: 375px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+@media screen and (min-width: 1024px){
+    width: 1024px; 
+}
+@media screen and (min-width: 1440px){
+    width: 1440px; 
+}
+} 
